@@ -1,0 +1,1157 @@
+{
+  "catalog_version": "2026-04-06",
+  "models": [
+    {
+      "id": "qwen3-0.6b",
+      "name": "Qwen3 0.6B",
+      "description": {
+        "zh-TW": "最小的 Qwen3，速度最快，適合低規格電腦",
+        "en": "Smallest Qwen3, fastest, for low-spec machines",
+        "es": "El Qwen3 más pequeño y veloz, ideal para equipos con pocos recursos"
+      },
+      "size_gb": 0.5,
+      "ram_required_gb": 4,
+      "license": "Qwen",
+      "source_id": "qwen3:0.6b",
+      "category": "chat",
+      "tags": [
+        "chinese",
+        "fast",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen3-1.7b",
+      "name": "Qwen3 1.7B",
+      "description": {
+        "zh-TW": "小型 Qwen3，適合邊緣裝置",
+        "en": "Small Qwen3, good for edge devices",
+        "es": "Qwen3 compacto, pensado para dispositivos de bajo consumo"
+      },
+      "size_gb": 1.4,
+      "ram_required_gb": 4,
+      "license": "Qwen",
+      "source_id": "qwen3:1.7b",
+      "category": "chat",
+      "tags": [
+        "chinese",
+        "fast"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen3-4b",
+      "name": "Qwen3 4B",
+      "description": {
+        "zh-TW": "高效中文模型，適合一般對話，幾乎所有電腦都能跑",
+        "en": "Efficient Chinese model for general conversation, runs on almost any PC",
+        "es": "Modelo chino eficiente para conversación general, funciona en casi cualquier PC"
+      },
+      "size_gb": 2.5,
+      "ram_required_gb": 4,
+      "license": "Qwen",
+      "source_id": "qwen3:4b",
+      "category": "chat",
+      "tags": [
+        "chinese",
+        "chat",
+        "recommended",
+        "beginner"
+      ],
+      "rating": 4,
+      "preinstalled": true
+    },
+    {
+      "id": "qwen3-8b",
+      "name": "Qwen3 8B",
+      "description": {
+        "zh-TW": "更強的中文模型，適合進階對話與任務",
+        "en": "Stronger Chinese model for advanced conversation and tasks",
+        "es": "Qwen3 más potente, para tareas avanzadas y conversación fluida"
+      },
+      "size_gb": 5.2,
+      "ram_required_gb": 8,
+      "license": "Qwen",
+      "source_id": "qwen3:8b",
+      "category": "chat",
+      "tags": [
+        "chinese",
+        "chat",
+        "recommended"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen3-14b",
+      "name": "Qwen3 14B",
+      "description": {
+        "zh-TW": "高品質推理+對話，混合思考模式",
+        "en": "High-quality reasoning + chat with hybrid thinking mode",
+        "es": "Razonamiento y chat de alta calidad con modo de pensamiento híbrido"
+      },
+      "size_gb": 9.3,
+      "ram_required_gb": 16,
+      "license": "Qwen",
+      "source_id": "qwen3:14b",
+      "category": "reasoning",
+      "tags": [
+        "chinese",
+        "reasoning",
+        "chat"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "llama3.2-1b",
+      "name": "Llama 3.2 1B",
+      "description": {
+        "zh-TW": "Meta 超小模型，適合快速回應",
+        "en": "Meta's tiny model, great for fast responses",
+        "es": "El modelo más ligero de Meta, ideal para respuestas rápidas"
+      },
+      "size_gb": 1.3,
+      "ram_required_gb": 4,
+      "license": "Llama-3.2",
+      "source_id": "llama3.2:1b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "fast",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "llama3.2-3b",
+      "name": "Llama 3.2 3B",
+      "description": {
+        "zh-TW": "Meta 小型模型，128K 上下文",
+        "en": "Meta's small model with 128K context",
+        "es": "Modelo pequeño de Meta con ventana de contexto de 128K"
+      },
+      "size_gb": 2.0,
+      "ram_required_gb": 4,
+      "license": "Llama-3.2",
+      "source_id": "llama3.2:3b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "multilingual"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "llama3.1-8b",
+      "name": "Llama 3.1 8B",
+      "description": {
+        "zh-TW": "Meta 主力模型，英文能力強，多語言支援",
+        "en": "Meta's workhorse model, strong English with multilingual support",
+        "es": "El modelo principal de Meta, sólido en inglés con soporte multilingüe"
+      },
+      "size_gb": 4.9,
+      "ram_required_gb": 8,
+      "license": "Llama-3.1",
+      "source_id": "llama3.1:8b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "multilingual",
+        "chat"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "gemma4-e2b",
+      "name": "Gemma 4 E2B",
+      "description": {
+        "zh-TW": "Google 最新模型，小巧高效",
+        "en": "Google's latest model, compact and efficient",
+        "es": "El último modelo de Google, compacto y muy eficiente"
+      },
+      "size_gb": 7.2,
+      "ram_required_gb": 8,
+      "license": "Gemma",
+      "source_id": "gemma4:e2b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "multilingual",
+        "new"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "gemma4-e4b",
+      "name": "Gemma 4 E4B",
+      "description": {
+        "zh-TW": "Google 最新多模態模型，支援文字+圖片",
+        "en": "Google's latest multimodal model, text + image input",
+        "es": "Modelo multimodal de Google que acepta texto e imágenes"
+      },
+      "size_gb": 9.6,
+      "ram_required_gb": 12,
+      "license": "Gemma",
+      "source_id": "gemma4:e4b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "multilingual",
+        "vision",
+        "new"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "gemma4-26b",
+      "name": "Gemma 4 26B MoE",
+      "description": {
+        "zh-TW": "Google 大型 MoE 模型，高品質推理",
+        "en": "Google's large MoE model, high-quality reasoning",
+        "es": "Gran modelo MoE de Google con razonamiento de alta calidad"
+      },
+      "size_gb": 18,
+      "ram_required_gb": 24,
+      "license": "Gemma",
+      "source_id": "gemma4:26b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "reasoning",
+        "new"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "gemma3-4b",
+      "name": "Gemma 3 4B",
+      "description": {
+        "zh-TW": "Google 中型模型，128K 上下文",
+        "en": "Google's mid-size model with 128K context",
+        "es": "Modelo mediano de Google con contexto de 128K"
+      },
+      "size_gb": 3.3,
+      "ram_required_gb": 8,
+      "license": "Gemma",
+      "source_id": "gemma3:4b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "multilingual"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "gemma3-12b",
+      "name": "Gemma 3 12B",
+      "description": {
+        "zh-TW": "Google 大型模型，高品質多語言",
+        "en": "Google's larger model, high-quality multilingual",
+        "es": "Modelo grande de Google, excelente en múltiples idiomas"
+      },
+      "size_gb": 8.1,
+      "ram_required_gb": 16,
+      "license": "Gemma",
+      "source_id": "gemma3:12b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "multilingual"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "gemma2-2b",
+      "name": "Gemma 2 2B",
+      "description": {
+        "zh-TW": "Google 小型模型，速度快，適合低規格電腦",
+        "en": "Google's small model, fast, great for low-spec machines",
+        "es": "Modelo pequeño de Google, rápido y apto para equipos modestos"
+      },
+      "size_gb": 1.6,
+      "ram_required_gb": 4,
+      "license": "Gemma",
+      "source_id": "gemma2:2b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "fast",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "gemma2-9b",
+      "name": "Gemma 2 9B",
+      "description": {
+        "zh-TW": "Google 中型模型，效能優異",
+        "en": "Google's mid-size model, excellent performance",
+        "es": "Modelo mediano de Google con rendimiento sobresaliente"
+      },
+      "size_gb": 5.4,
+      "ram_required_gb": 8,
+      "license": "Gemma",
+      "source_id": "gemma2:9b",
+      "category": "chat",
+      "tags": [
+        "english"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "mistral-7b",
+      "name": "Mistral 7B",
+      "description": {
+        "zh-TW": "經典開源模型，英法語強",
+        "en": "Classic open model, strong English and French",
+        "es": "Modelo open-source clásico, muy bueno en inglés y francés"
+      },
+      "size_gb": 4.4,
+      "ram_required_gb": 8,
+      "license": "Apache-2.0",
+      "source_id": "mistral:7b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "french"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "mistral-nemo-12b",
+      "name": "Mistral Nemo 12B",
+      "description": {
+        "zh-TW": "Mistral+NVIDIA 合作模型，1M 上下文",
+        "en": "Mistral+NVIDIA collab, 1M context window",
+        "es": "Colaboración Mistral+NVIDIA con ventana de contexto de 1M de tokens"
+      },
+      "size_gb": 7.1,
+      "ram_required_gb": 16,
+      "license": "Apache-2.0",
+      "source_id": "mistral-nemo:12b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "multilingual",
+        "long-context"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "phi3-3.8b",
+      "name": "Phi-3 Mini 3.8B",
+      "description": {
+        "zh-TW": "Microsoft 小型模型，推理能力強",
+        "en": "Microsoft's small model, strong reasoning",
+        "es": "Modelo pequeño de Microsoft con gran capacidad de razonamiento"
+      },
+      "size_gb": 2.2,
+      "ram_required_gb": 4,
+      "license": "MIT",
+      "source_id": "phi3:3.8b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "reasoning"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "phi3-14b",
+      "name": "Phi-3 Medium 14B",
+      "description": {
+        "zh-TW": "Microsoft 中型模型，STEM 強",
+        "en": "Microsoft's medium model, strong STEM",
+        "es": "Modelo mediano de Microsoft, destacado en ciencias y matemáticas"
+      },
+      "size_gb": 7.9,
+      "ram_required_gb": 16,
+      "license": "MIT",
+      "source_id": "phi3:14b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "reasoning",
+        "stem"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "phi4-mini-3.8b",
+      "name": "Phi-4 Mini 3.8B",
+      "description": {
+        "zh-TW": "Microsoft 最新小型模型，升級版 Phi3",
+        "en": "Microsoft's latest small model, upgraded Phi3",
+        "es": "Última versión pequeña de Microsoft, mejora significativa sobre Phi3"
+      },
+      "size_gb": 2.5,
+      "ram_required_gb": 4,
+      "license": "MIT",
+      "source_id": "phi4-mini:3.8b",
+      "category": "chat",
+      "tags": [
+        "english",
+        "reasoning"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "deepseek-r1-1.5b",
+      "name": "DeepSeek R1 1.5B",
+      "description": {
+        "zh-TW": "超小推理模型，蒸餾版",
+        "en": "Tiny reasoning model, distilled",
+        "es": "Modelo de razonamiento ultraligero, versión destilada"
+      },
+      "size_gb": 1.1,
+      "ram_required_gb": 4,
+      "license": "MIT",
+      "source_id": "deepseek-r1:1.5b",
+      "category": "reasoning",
+      "tags": [
+        "chinese",
+        "english",
+        "reasoning",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "deepseek-r1-7b",
+      "name": "DeepSeek R1 7B",
+      "description": {
+        "zh-TW": "高性價比推理模型",
+        "en": "Great reasoning-to-size ratio",
+        "es": "Excelente relación calidad-tamaño para razonamiento"
+      },
+      "size_gb": 4.7,
+      "ram_required_gb": 8,
+      "license": "MIT",
+      "source_id": "deepseek-r1:7b",
+      "category": "reasoning",
+      "tags": [
+        "chinese",
+        "english",
+        "reasoning"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "deepseek-r1-8b",
+      "name": "DeepSeek R1 8B",
+      "description": {
+        "zh-TW": "推理能力強，中英雙語",
+        "en": "Strong reasoning, Chinese-English bilingual",
+        "es": "Razonamiento potente en chino e inglés"
+      },
+      "size_gb": 5.2,
+      "ram_required_gb": 8,
+      "license": "MIT",
+      "source_id": "deepseek-r1:8b",
+      "category": "reasoning",
+      "tags": [
+        "chinese",
+        "english",
+        "reasoning"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "deepseek-r1-14b",
+      "name": "DeepSeek R1 14B",
+      "description": {
+        "zh-TW": "強大數學+邏輯推理",
+        "en": "Strong math and logic reasoning",
+        "es": "Sólido en matemáticas y lógica"
+      },
+      "size_gb": 9.0,
+      "ram_required_gb": 16,
+      "license": "MIT",
+      "source_id": "deepseek-r1:14b",
+      "category": "reasoning",
+      "tags": [
+        "chinese",
+        "english",
+        "reasoning",
+        "math"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "deepseek-r1-32b",
+      "name": "DeepSeek R1 32B",
+      "description": {
+        "zh-TW": "接近頂級品質的推理模型",
+        "en": "Near-frontier quality reasoning model",
+        "es": "Modelo de razonamiento con calidad próxima a los de frontera"
+      },
+      "size_gb": 20.0,
+      "ram_required_gb": 32,
+      "license": "MIT",
+      "source_id": "deepseek-r1:32b",
+      "category": "reasoning",
+      "tags": [
+        "chinese",
+        "english",
+        "reasoning"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "phi4-14b",
+      "name": "Phi-4 14B",
+      "description": {
+        "zh-TW": "Microsoft 推理模型，STEM 專精",
+        "en": "Microsoft reasoning model, STEM focused",
+        "es": "Modelo de razonamiento de Microsoft, enfocado en STEM"
+      },
+      "size_gb": 9.1,
+      "ram_required_gb": 16,
+      "license": "MIT",
+      "source_id": "phi4:14b",
+      "category": "reasoning",
+      "tags": [
+        "english",
+        "reasoning",
+        "stem",
+        "math"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-coder-1.5b",
+      "name": "Qwen2.5 Coder 1.5B",
+      "description": {
+        "zh-TW": "最小程式碼模型，自動補全",
+        "en": "Smallest coding model, autocomplete",
+        "es": "El modelo de código más ligero, perfecto para autocompletado"
+      },
+      "size_gb": 1.0,
+      "ram_required_gb": 4,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5-coder:1.5b",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-coder-3b",
+      "name": "Qwen2.5 Coder 3B",
+      "description": {
+        "zh-TW": "小型程式碼模型，適合低規格電腦",
+        "en": "Small coding model for low-spec machines",
+        "es": "Modelo de código compacto para equipos con recursos limitados"
+      },
+      "size_gb": 1.9,
+      "ram_required_gb": 4,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5-coder:3b",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-coder-7b",
+      "name": "Qwen2.5 Coder 7B",
+      "description": {
+        "zh-TW": "最佳 8GB 程式碼模型",
+        "en": "Best 8GB coding model",
+        "es": "El mejor modelo de código para 8 GB de RAM"
+      },
+      "size_gb": 4.7,
+      "ram_required_gb": 8,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5-coder:7b",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "recommended"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-coder-14b",
+      "name": "Qwen2.5 Coder 14B",
+      "description": {
+        "zh-TW": "接近 GPT-4 的程式碼能力",
+        "en": "Near GPT-4 level coding",
+        "es": "Capacidad de código cercana a GPT-4"
+      },
+      "size_gb": 9.0,
+      "ram_required_gb": 16,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5-coder:14b",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "deepseek-coder-v2-16b",
+      "name": "DeepSeek Coder V2 16B",
+      "description": {
+        "zh-TW": "MoE 架構程式碼模型",
+        "en": "MoE architecture coding model",
+        "es": "Modelo de código con arquitectura MoE de alto rendimiento"
+      },
+      "size_gb": 8.9,
+      "ram_required_gb": 16,
+      "license": "DeepSeek",
+      "source_id": "deepseek-coder-v2:16b",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "codellama-7b",
+      "name": "CodeLlama 7B",
+      "description": {
+        "zh-TW": "Meta 程式碼模型，支援 20+ 語言",
+        "en": "Meta's code model, 20+ languages supported",
+        "es": "Modelo de código de Meta, compatible con más de 20 lenguajes"
+      },
+      "size_gb": 3.8,
+      "ram_required_gb": 8,
+      "license": "Llama-2",
+      "source_id": "codellama:7b",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "english"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "codellama-13b",
+      "name": "CodeLlama 13B",
+      "description": {
+        "zh-TW": "Meta 大型程式碼模型",
+        "en": "Meta's larger code model",
+        "es": "Versión más grande del modelo de código de Meta"
+      },
+      "size_gb": 7.4,
+      "ram_required_gb": 16,
+      "license": "Llama-2",
+      "source_id": "codellama:13b",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "english"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "starcoder2-3b",
+      "name": "StarCoder2 3B",
+      "description": {
+        "zh-TW": "開源程式碼模型，600+ 程式語言",
+        "en": "Open-source code model, 600+ programming languages",
+        "es": "Modelo open-source de código con soporte para más de 600 lenguajes"
+      },
+      "size_gb": 1.7,
+      "ram_required_gb": 4,
+      "license": "RAIL-M",
+      "source_id": "starcoder2:3b",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "starcoder2-7b",
+      "name": "StarCoder2 7B",
+      "description": {
+        "zh-TW": "StarCoder2 中型版",
+        "en": "StarCoder2 medium size",
+        "es": "StarCoder2 en tamaño mediano"
+      },
+      "size_gb": 4.0,
+      "ram_required_gb": 8,
+      "license": "RAIL-M",
+      "source_id": "starcoder2:7b",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "starcoder2-15b",
+      "name": "StarCoder2 15B",
+      "description": {
+        "zh-TW": "StarCoder2 最大版，同級最強",
+        "en": "StarCoder2 largest, best in class for size",
+        "es": "La versión más grande de StarCoder2, la mejor de su clase"
+      },
+      "size_gb": 9.1,
+      "ram_required_gb": 16,
+      "license": "RAIL-M",
+      "source_id": "starcoder2:15b",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-0.5b",
+      "name": "Qwen2.5 0.5B",
+      "description": {
+        "zh-TW": "最小的 Qwen2.5，29 種語言",
+        "en": "Smallest Qwen2.5, 29 languages",
+        "es": "El Qwen2.5 más pequeño, con soporte para 29 idiomas"
+      },
+      "size_gb": 0.4,
+      "ram_required_gb": 4,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5:0.5b",
+      "category": "chinese",
+      "tags": [
+        "chinese",
+        "multilingual",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-1.5b",
+      "name": "Qwen2.5 1.5B",
+      "description": {
+        "zh-TW": "小型 Qwen2.5，32K 上下文",
+        "en": "Small Qwen2.5, 32K context",
+        "es": "Qwen2.5 compacto con contexto de 32K"
+      },
+      "size_gb": 1.0,
+      "ram_required_gb": 4,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5:1.5b",
+      "category": "chinese",
+      "tags": [
+        "chinese",
+        "multilingual"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-7b",
+      "name": "Qwen2.5 7B",
+      "description": {
+        "zh-TW": "最佳中英雙語模型，最受歡迎的 Qwen",
+        "en": "Best Chinese-English bilingual, most popular Qwen",
+        "es": "El mejor bilingüe chino-inglés y el Qwen más popular"
+      },
+      "size_gb": 4.7,
+      "ram_required_gb": 8,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5:7b",
+      "category": "chinese",
+      "tags": [
+        "chinese",
+        "multilingual",
+        "recommended"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5-14b",
+      "name": "Qwen2.5 14B",
+      "description": {
+        "zh-TW": "大型 Qwen2.5，29 種語言",
+        "en": "Large Qwen2.5, 29 languages",
+        "es": "Qwen2.5 grande, disponible en 29 idiomas"
+      },
+      "size_gb": 9.0,
+      "ram_required_gb": 16,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5:14b",
+      "category": "chinese",
+      "tags": [
+        "chinese",
+        "multilingual"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "llama3.3-70b",
+      "name": "Llama 3.3 70B",
+      "description": {
+        "zh-TW": "Meta 最大開源模型，需要 64GB+ RAM",
+        "en": "Meta's largest open model, requires 64GB+ RAM",
+        "es": "El mayor modelo abierto de Meta, requiere 64 GB de RAM o más"
+      },
+      "size_gb": 43.0,
+      "ram_required_gb": 48,
+      "license": "Llama-3.3",
+      "source_id": "llama3.3:70b",
+      "category": "chinese",
+      "tags": [
+        "english",
+        "multilingual"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen3-vl-2b",
+      "name": "Qwen3 VL 2B",
+      "description": {
+        "zh-TW": "最小視覺模型，可看圖說話",
+        "en": "Smallest vision model, image understanding",
+        "es": "El modelo de visión más pequeño, capaz de entender imágenes"
+      },
+      "size_gb": 1.9,
+      "ram_required_gb": 4,
+      "license": "Qwen",
+      "source_id": "qwen3-vl:2b",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "vision",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen3-vl-4b",
+      "name": "Qwen3 VL 4B",
+      "description": {
+        "zh-TW": "中型視覺模型，圖片分析",
+        "en": "Mid-size vision model, image analysis",
+        "es": "Modelo de visión mediano para análisis de imágenes"
+      },
+      "size_gb": 3.3,
+      "ram_required_gb": 8,
+      "license": "Qwen",
+      "source_id": "qwen3-vl:4b",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "vision"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen3-vl-8b",
+      "name": "Qwen3 VL 8B",
+      "description": {
+        "zh-TW": "強大視覺模型，OCR+圖表+影片",
+        "en": "Strong vision model, OCR + charts + video",
+        "es": "Potente modelo de visión: OCR, gráficos y vídeo"
+      },
+      "size_gb": 6.1,
+      "ram_required_gb": 12,
+      "license": "Qwen",
+      "source_id": "qwen3-vl:8b",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "vision",
+        "ocr",
+        "recommended"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen3-vl-30b",
+      "name": "Qwen3 VL 30B",
+      "description": {
+        "zh-TW": "頂級視覺推理模型",
+        "en": "Top-tier visual reasoning model",
+        "es": "Modelo de razonamiento visual de primera clase"
+      },
+      "size_gb": 20.0,
+      "ram_required_gb": 24,
+      "license": "Qwen",
+      "source_id": "qwen3-vl:30b",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "vision"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5vl-3b",
+      "name": "Qwen2.5 VL 3B",
+      "description": {
+        "zh-TW": "小型視覺語言模型",
+        "en": "Small vision-language model",
+        "es": "Modelo de visión-lenguaje compacto"
+      },
+      "size_gb": 3.2,
+      "ram_required_gb": 8,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5vl:3b",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "vision"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "qwen2.5vl-7b",
+      "name": "Qwen2.5 VL 7B",
+      "description": {
+        "zh-TW": "最佳 8GB 視覺模型，OCR+圖表",
+        "en": "Best 8GB vision model, OCR + charts",
+        "es": "El mejor modelo de visión para 8 GB, con OCR y gráficos"
+      },
+      "size_gb": 6.0,
+      "ram_required_gb": 8,
+      "license": "Apache-2.0",
+      "source_id": "qwen2.5vl:7b",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "vision",
+        "ocr",
+        "recommended"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "llama3.2-vision-11b",
+      "name": "Llama 3.2 Vision 11B",
+      "description": {
+        "zh-TW": "Meta 多模態模型，128K 上下文",
+        "en": "Meta's multimodal model, 128K context",
+        "es": "Modelo multimodal de Meta con contexto de 128K"
+      },
+      "size_gb": 7.8,
+      "ram_required_gb": 16,
+      "license": "Llama-3.2",
+      "source_id": "llama3.2-vision:11b",
+      "category": "vision",
+      "tags": [
+        "english",
+        "vision"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "llava-7b",
+      "name": "LLaVA 7B",
+      "description": {
+        "zh-TW": "經典視覺模型，廣泛支援",
+        "en": "Classic vision model, widely supported",
+        "es": "Modelo de visión clásico con amplia compatibilidad"
+      },
+      "size_gb": 4.7,
+      "ram_required_gb": 8,
+      "license": "Apache-2.0",
+      "source_id": "llava:7b",
+      "category": "vision",
+      "tags": [
+        "english",
+        "vision"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    },
+    {
+      "id": "llava-13b",
+      "name": "LLaVA 13B",
+      "description": {
+        "zh-TW": "更準確的視覺模型",
+        "en": "More accurate vision model",
+        "es": "Modelo de visión más preciso de la serie LLaVA"
+      },
+      "size_gb": 8.0,
+      "ram_required_gb": 16,
+      "license": "Apache-2.0",
+      "source_id": "llava:13b",
+      "category": "vision",
+      "tags": [
+        "english",
+        "vision"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "minicpm-v-8b",
+      "name": "MiniCPM-V 8B",
+      "description": {
+        "zh-TW": "中文 OCR 專精視覺模型",
+        "en": "Chinese OCR specialized vision model",
+        "es": "Modelo de visión especializado en OCR chino"
+      },
+      "size_gb": 5.5,
+      "ram_required_gb": 8,
+      "license": "Apache-2.0",
+      "source_id": "minicpm-v:8b",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "vision",
+        "ocr"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "glm-ocr",
+      "name": "GLM-OCR 0.9B",
+      "description": {
+        "zh-TW": "文件 OCR 專用，表格/公式辨識第一名",
+        "en": "Document OCR specialist, #1 on OmniDocBench",
+        "es": "Especialista en OCR de documentos, líder en tablas y fórmulas"
+      },
+      "size_gb": 2.2,
+      "ram_required_gb": 4,
+      "license": "GLM",
+      "source_id": "glm-ocr",
+      "category": "vision",
+      "tags": [
+        "chinese",
+        "ocr",
+        "document",
+        "recommended"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "nomic-embed-text",
+      "name": "Nomic Embed Text",
+      "description": {
+        "zh-TW": "最受歡迎的英文嵌入模型",
+        "en": "Most popular English embedding model",
+        "es": "El modelo de embeddings en inglés más popular"
+      },
+      "size_gb": 0.27,
+      "ram_required_gb": 1,
+      "license": "Apache-2.0",
+      "source_id": "nomic-embed-text",
+      "category": "embedding",
+      "tags": [
+        "english",
+        "embedding",
+        "rag"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "mxbai-embed-large",
+      "name": "MxBai Embed Large",
+      "description": {
+        "zh-TW": "BERT 級別最強嵌入模型",
+        "en": "SOTA at BERT-large size embedding",
+        "es": "Embeddings de máximo rendimiento a nivel BERT-large"
+      },
+      "size_gb": 0.67,
+      "ram_required_gb": 2,
+      "license": "Apache-2.0",
+      "source_id": "mxbai-embed-large",
+      "category": "embedding",
+      "tags": [
+        "english",
+        "embedding",
+        "rag"
+      ],
+      "rating": 4,
+      "preinstalled": false
+    },
+    {
+      "id": "bge-m3",
+      "name": "BGE-M3",
+      "description": {
+        "zh-TW": "最佳多語言嵌入模型，100+ 語言",
+        "en": "Best multilingual embedding, 100+ languages",
+        "es": "El mejor modelo de embeddings multilingüe, con más de 100 idiomas"
+      },
+      "size_gb": 1.2,
+      "ram_required_gb": 2,
+      "license": "MIT",
+      "source_id": "bge-m3",
+      "category": "embedding",
+      "tags": [
+        "multilingual",
+        "embedding",
+        "rag",
+        "recommended"
+      ],
+      "rating": 5,
+      "preinstalled": false
+    },
+    {
+      "id": "all-minilm",
+      "name": "All-MiniLM",
+      "description": {
+        "zh-TW": "超小嵌入模型，極快",
+        "en": "Ultra-tiny embedding model, extremely fast",
+        "es": "Modelo de embeddings ultraligero y extremadamente rápido"
+      },
+      "size_gb": 0.05,
+      "ram_required_gb": 1,
+      "license": "Apache-2.0",
+      "source_id": "all-minilm",
+      "category": "embedding",
+      "tags": [
+        "english",
+        "embedding",
+        "lightweight"
+      ],
+      "rating": 3,
+      "preinstalled": false
+    }
+  ]
+}
