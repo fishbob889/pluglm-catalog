@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026-04-06",
+  "catalog_version": "2026-04-09",
   "models": [
     {
       "id": "qwen3-0.6b",
@@ -20,7 +20,7 @@
         "lightweight"
       ],
       "rating": 3,
-      "preinstalled": false
+      "preinstalled": true
     },
     {
       "id": "qwen3-1.7b",
@@ -62,7 +62,7 @@
         "beginner"
       ],
       "rating": 4,
-      "preinstalled": true
+      "preinstalled": false
     },
     {
       "id": "qwen3-8b",
